@@ -220,32 +220,6 @@
       "bearbeiter": "Sigmund"
     }
   ],
-  "zugriffsprotokoll": [
-    {
-      "id": "1",
-      "patientenId": "1",
-      "zeitpunkt": "15.07.2018 19:50",
-      "zugriffvon": "Dr Hans",
-      "geaenderteDaten": [
-        {
-          "title": "Medikamente",
-          "beschreibung": "Eingabe von neuen Werte"
-        }
-      ]
-    },
-    {
-      "id": "2",
-      "patientenId": "2",
-      "zeitpunkt": "15.07.2018 19:50",
-      "zugriffvon": "Dr Hans",
-      "geaenderteDaten": [
-        {
-          "title": "Medikamente",
-          "beschreibung": "Eingabe von neuen Werte"
-        }
-      ]
-    }
-  ],
   "diagnose": [
     {
       "id": "1",
