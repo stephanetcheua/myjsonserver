@@ -1,0 +1,283 @@
+{
+  "patienten": [
+    {
+      "id": "1",
+      "url": "assets/medical/doctor3.jpg",
+      "name": "Herr MusterMan",
+      "beschreibung": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor inv",
+      "fallnr": "fv52df2",
+      "krankenkasse": "AOK Bayern",
+      "geschlecht": "M",
+      "gebDatum": "12.01.1980",
+      "aufnahmeDatum": "14.02.2018",
+      "entlassungDatum": "20.06.2018"
+    },
+    {
+      "id": "2",
+      "url": "assets/medical/doctor3.jpg",
+      "name": "Frau MusterFrau",
+      "beschreibung": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr",
+      "fallnr": "kffe412",
+      "aufnahmeDatum": "15.05.2018",
+      "entlassungDatum": "25.07.2018",
+      "gebDatum": "12.05.1985",
+      "krankenkasse": "TK Hessen",
+      "geschlecht": "W"
+    },
+    {
+      "id": "3",
+      "url": "assets/medical/doctor3.jpg",
+      "name": "Herr Müller",
+      "beschreibung": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr",
+      "fallnr": "muel412",
+      "aufnahmeDatum": "15.07.2018",
+      "entlassungDatum": "25.07.2018",
+      "gebDatum": "12.08.1989",
+      "krankenkasse": "Barmer",
+      "geschlecht": "M"
+    },
+    {
+      "id": "4",
+      "url": "assets/medical/doctor3.jpg",
+      "name": "Frau Meier",
+      "beschreibung": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr",
+      "fallnr": "fmeie412",
+      "aufnahmeDatum": "10.07.2018",
+      "entlassungDatum": "25.07.2018",
+      "gebDatum": "12.10.1992",
+      "krankenkasse": "Die Bayerische",
+      "geschlecht": "W"
+    }
+  ],
+  "vitalparameter": [
+    {
+      "id": "1",
+      "patientenId": "1",
+      "createdDate": "29.06.2018",
+      "lastModifiedDate": "2018.7.17 22:27",
+      "ersteller": "hsa",
+      "bearbeiter": "hsa",
+      "diastolisch": "90",
+      "systolisch": "122",
+      "puls": "86",
+      "temperatur": "37",
+      "zucker": "100"
+    },
+    {
+      "id": "2",
+      "patientenId": "1",
+      "createdDate": "30.06.2018",
+      "lastModifiedDate": "2018.7.16 19:6",
+      "ersteller": "hsa",
+      "bearbeiter": "hsa",
+      "diastolisch": "90",
+      "systolisch": "120",
+      "puls": "85",
+      "temperatur": "36",
+      "zucker": "100"
+    },
+    {
+      "id": "3",
+      "patientenId": "2",
+      "createdDate": "26.06.2018",
+      "lastModifiedDate": "26.06.2018",
+      "ersteller": "keine",
+      "bearbeiter": "keine",
+      "diastolisch": "88",
+      "systolisch": "120",
+      "puls": "85",
+      "temperatur": "35",
+      "zucker": "110"
+    },
+    {
+      "id": "4",
+      "patientenId": "2",
+      "createdDate": "30.06.2018",
+      "lastModifiedDate": "30.06.2018",
+      "ersteller": "keine",
+      "bearbeiter": "keine",
+      "diastolisch": "90",
+      "systolisch": "119",
+      "puls": "85",
+      "temperatur": "35",
+      "zucker": "110"
+    },
+    {
+      "puls": "86",
+      "systolisch": "128",
+      "diastolisch": "87",
+      "temperatur": "35",
+      "zucker": "90",
+      "id": 5,
+      "patientenId": "1",
+      "bearbeiter": "hsa",
+      "ersteller": "hsa",
+      "createdDate": "2018.7.16 22:55",
+      "lastModifiedDate": "2018.7.16 22:55"
+    }
+  ],
+  "careTeam": [
+    {
+      "id": "1",
+      "patientenId": "1",
+      "kuerzel": "hsa",
+      "role": "admin",
+      "name": "Dr.Hans",
+      "beschreibung": "Arzt"
+    },
+    {
+      "id": "2",
+      "patientenId": "1",
+      "kuerzel": "fpf",
+      "role": "pflege",
+      "name": "Frau Pfeiffer",
+      "beschreibung": "Pflegerin"
+    },
+    {
+      "id": "3",
+      "patientenId": "2",
+      "kuerzel": "sgm",
+      "role": "admin",
+      "name": "Dr Sigmund",
+      "beschreibung": "Chef Artz"
+    },
+    {
+      "id": "4",
+      "patientenId": "2",
+      "kuerzel": "nga",
+      "role": "visitor",
+      "name": "Herr Ngatchou",
+      "beschreibung": "angehörig"
+    },
+    {
+      "id": "5",
+      "patientenId": "3",
+      "kuerzel": "fdl",
+      "role": "admin",
+      "name": "Dr Friedl",
+      "beschreibung": "Chef Artz"
+    },
+    {
+      "id": "6",
+      "patientenId": "4",
+      "kuerzel": "taz",
+      "role": "pflege",
+      "name": "Frau Tänzer",
+      "beschreibung": "pflegerin"
+    }
+  ],
+  "medikamente": [
+    {
+      "id": "1",
+      "patientenId": "1",
+      "name": "Aspirine",
+      "menge": "200",
+      "form": "kapseln",
+      "start": "12.06.2018",
+      "ende": "12.06.2018",
+      "createdDate": "01.01.2018",
+      "lastModifiedDate": "2018.7.17 2:10",
+      "ersteller": "Hans",
+      "bearbeiter": "hsa"
+    },
+    {
+      "id": "2",
+      "patientenId": "1",
+      "name": "Voltaren",
+      "menge": "200",
+      "form": "kapseln",
+      "start": "12.06.2018",
+      "ende": "12.06.2018",
+      "createdDate": "01.01.2018",
+      "lastModifiedDate": "2018.7.17 2:44",
+      "ersteller": "Hans",
+      "bearbeiter": "hsa"
+    },
+    {
+      "id": "3",
+      "patientenId": "2",
+      "name": "52Wochen",
+      "menge": "200",
+      "form": "kapseln",
+      "start": "12.06.2018",
+      "ende": "12.06.2018",
+      "createdDate": "01.01.2018",
+      "lastModifiedDate": "01.01.2018",
+      "ersteller": "Sigmund",
+      "bearbeiter": "Sigmund"
+    },
+    {
+      "id": "4",
+      "patientenId": "2",
+      "name": "Aspirin",
+      "menge": "500",
+      "form": "kapseln",
+      "start": "12.06.2018",
+      "ende": "12.06.2018",
+      "createdDate": "01.01.2018",
+      "lastModifiedDate": "01.01.2018",
+      "ersteller": "Sigmund",
+      "bearbeiter": "Sigmund"
+    }
+  ],
+  "zugriffsprotokoll": [
+    {
+      "id": "1",
+      "patientenId": "1",
+      "zeitpunkt": "15.07.2018 19:50",
+      "zugriffvon": "Dr Hans",
+      "geaenderteDaten": [
+        {
+          "title": "Medikamente",
+          "beschreibung": "Eingabe von neuen Werte"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "patientenId": "2",
+      "zeitpunkt": "15.07.2018 19:50",
+      "zugriffvon": "Dr Hans",
+      "geaenderteDaten": [
+        {
+          "title": "Medikamente",
+          "beschreibung": "Eingabe von neuen Werte"
+        }
+      ]
+    }
+  ],
+  "diagnose": [
+    {
+      "id": "1",
+      "patientenId": "1",
+      "title": "Diabetes Mellitus",
+      "hauptdiagnose": "Diabetes Mellitus",
+      "nebendiagnose": "Chronische Nierenkrankheit",
+      "besonderheiten": "Essentielle (primäre) Hypertonie"
+    },
+    {
+      "id": "2",
+      "patientenId": "2",
+      "title": "Schizophrenie",
+      "hauptdiagnose": "Schizophrenie ",
+      "nebendiagnose": "Schizophrenie",
+      "besonderheiten": "keine"
+    },
+    {
+      "id": "3",
+      "patientenId": "3",
+      "title": "Diabetes Mellitus",
+      "hauptdiagnose": "Diabetes Mellitus",
+      "nebendiagnose": "Chronische Nierenkrankheit",
+      "besonderheiten": "Essentielle (primäre) Hypertonie"
+    },
+    {
+      "id": "4",
+      "patientenId": "4",
+      "title": "Schizophrenie",
+      "hauptdiagnose": "Schizophrenie ",
+      "nebendiagnose": "Schizophrenie",
+      "besonderheiten": "keine"
+    }
+  ]
+}
